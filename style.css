@@ -346,7 +346,7 @@ section {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .experience-details-container {
@@ -373,6 +373,23 @@ article {
 
 article .icon {
   cursor: default;
+}
+
+.experience-details-container {
+  display: flex;
+  flex-direction: column; 
+}
+
+.experience-box {
+  border: 1px solid #ccc; 
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: justify;
+  display: flex;
+  align-items: center; 
 }
 
 /* PROJECTS SECTION */
