@@ -101,3 +101,11 @@
     text-align: justify;
   }
 }
+
+.experience-box img {
+  max-height: 200px; 
+  vertical-align: middle;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+}

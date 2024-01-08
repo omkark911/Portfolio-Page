@@ -27,10 +27,28 @@ a,
 }
 
 /* DESKTOP NAV */
+#desktop-nav{
+  background-color: rgb(252, 245, 236);
+}
+.nav-dp{
+  /* padding: 20px; */
+  /* margin: auto; */
+  /* border: 2px solid white; */
+  border-radius: 50%;
+  height: 100px;
+  
+}
 
 nav,
 .nav-links {
   display: flex;
+}
+
+.name_and_dp{
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  gap: 30rem;
 }
 
 nav {
@@ -42,7 +60,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 a {
@@ -60,6 +78,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  margin-left: -450px;
 }
 
 .logo:hover {
@@ -70,11 +89,13 @@ a:hover {
 
 #hamburger-nav {
   display: none;
+  
 }
 
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  
 }
 
 .hamburger-icon {
@@ -84,6 +105,7 @@ a:hover {
   height: 24px;
   width: 30px;
   cursor: pointer;
+  
 }
 
 .hamburger-icon span {
@@ -161,6 +183,28 @@ section {
 }
 
 /* PROFILE SECTION */
+
+#type{
+  overflow: hidden;
+  border-right: .05em solid darkblue; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3s steps(30, end),
+    blink-caret .4s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: darkblue }
+}
 
 #profile {
   display: flex;
@@ -324,7 +368,7 @@ section {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .experience-details-container {
@@ -351,6 +395,23 @@ article {
 
 article .icon {
   cursor: default;
+}
+
+.experience-details-container {
+  display: flex;
+  flex-direction: column; 
+}
+
+.experience-box {
+  border: 1px solid #ccc; 
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: justify;
+  display: flex;
+  align-items: center; 
 }
 
 /* PROJECTS SECTION */
