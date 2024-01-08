@@ -386,6 +386,10 @@ section {
   justify-content: space-around;
 }
 
+video{
+  border-radius: 10%;
+}
+
 article {
   display: flex;
   width: 10rem;
