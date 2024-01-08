@@ -397,23 +397,6 @@ article .icon {
   cursor: default;
 }
 
-.experience-details-container {
-  display: flex;
-  flex-direction: column; 
-}
-
-.experience-box {
-  border: 1px solid #ccc; 
-  padding: 20px;
-  margin: 10px;
-  border-radius: 20px;
-  width: 100%;
-  box-sizing: border-box;
-  text-align: justify;
-  display: flex;
-  align-items: center; 
-}
-
 /* PROJECTS SECTION */
 
 #projects {
