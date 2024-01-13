@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image:url(./assets/background.png);
 }
 
 html {
@@ -28,7 +29,7 @@ a,
 
 /* DESKTOP NAV */
 #desktop-nav{
-  background-color: rgb(252, 245, 236);
+  background-color: rgb(255, 255, 255);
 }
 .nav-dp{
   /* padding: 20px; */
